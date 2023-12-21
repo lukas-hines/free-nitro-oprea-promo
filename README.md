@@ -43,6 +43,7 @@ this would have been the "partnerUserId" but you can leave it blank in the rest 
 
 
 ## how to use
+
 you will need
 - bash
 - [jq](https://github.com/jqlang/jq)
@@ -55,3 +56,5 @@ jq -r '.token' /tmp/token.json | xargs -I {} echo https://discord.com/billing/pa
 ```
 
 running this to much will cause a rate limit and you would need a new ip. running this thu torsocks seemed to work for me.
+
+using/abusing this might be get you banned. i have not read into anything on what you are and are not allowed to do
